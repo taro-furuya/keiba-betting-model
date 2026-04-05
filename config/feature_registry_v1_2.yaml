@@ -1,0 +1,13 @@
+{
+  "version": "1.2",
+  "feature_pipeline": {
+    "snapshots": [
+      {"key_snapshot": "S60", "offset_seconds": 60},
+      {"key_snapshot": "S10", "offset_seconds": 10}
+    ],
+    "families": {
+      "implemented": ["key", "ctx", "snapshot"],
+      "todo": ["form", "pace", "pedigree", "course_bias"]
+    }
+  }
+}
